@@ -55,7 +55,9 @@ You should be able to see the catalog, SPA app and health checker with the follo
 > 
 > http://localhost:5107
 
-![image](https://user-images.githubusercontent.com/13120778/227141099-5e0c6942-caa3-4d46-b1b9-f2741a6ed984.png)
+![image](https://user-images.githubusercontent.com/13120778/227142708-a9e11b5d-d569-4f0a-aff0-0fc8766a7cdc.png)
+
+![image](https://user-images.githubusercontent.com/13120778/227143805-10bb346e-d53e-43b4-be34-67ef73de5343.png)
 
 # references
 .net7 eShopOnContainers microservices architecture
