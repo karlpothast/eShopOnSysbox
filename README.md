@@ -40,9 +40,12 @@ check that docker can see the sysbox runtime
 # docker run
 `docker run --runtime=sysbox-runc -itd -p 5100:5100 -p 5104:5104 -p 5107:5107 --name eshop karlpothast/eshoponsysbox:1.0.0`
 
-![image](https://user-images.githubusercontent.com/13120778/227138622-d68a9d5f-8ee4-4f3e-8e50-933e0055688b.png)
+# docker exec
+`docker exec -it eshop bash`
 
-
+# start containers script
+`cd $HOME`
+`./start-all-containers.sh`
 
 You should be able to see the catalog, SPA app and health checker with the following URLs :
 
@@ -52,7 +55,7 @@ You should be able to see the catalog, SPA app and health checker with the follo
 > 
 > http://localhost:5107
 
-![alt text](https://github.com/karlpothast/eShopOnSysbox/raw/master/src/documentation/containers.png "containers")
+![image](https://user-images.githubusercontent.com/13120778/227141099-5e0c6942-caa3-4d46-b1b9-f2741a6ed984.png)
 
 # references
 .net7 eShopOnContainers microservices architecture
