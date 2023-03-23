@@ -1,10 +1,10 @@
 # eShopOnSysbox
-Complete .net 7 microservices architecture example using a sysbox master container acting as a VM including systemd functionality to run docker within docker securely. 
+Complete .Net 7 microservices architecture using a sysbox docker master container (acting as a VM) with systemd functionality to run all 22 eShop docker services within docker securely. 
 
 # pre-req
 Setup sysbox
 
-install with yay on arch distros (refer to sysbox documentation for others - https://github.com/nestybox/sysbox)
+install with yay on arch distros (refer to sysbox documentation for others - https://github.com/nestybox/sysbox) 
 `yay -S sysbox-ce-bin`
 
 enable and start sysbox
