@@ -47,15 +47,14 @@ check that docker can see the sysbox runtime
 `cd $HOME`
 `./start-all-containers.sh`
 
-You should be able to see the catalog, SPA app and health checker with the following URLs :
+![image](https://user-images.githubusercontent.com/13120778/227142708-a9e11b5d-d569-4f0a-aff0-0fc8766a7cdc.png)
 
+You should be able to see the catalog, SPA app and health checker with the following URLs :
 > http://localhost:5100
 >
 > http://localhost:5104
 > 
 > http://localhost:5107
-
-![image](https://user-images.githubusercontent.com/13120778/227142708-a9e11b5d-d569-4f0a-aff0-0fc8766a7cdc.png)
 
 ![image](https://user-images.githubusercontent.com/13120778/227143805-10bb346e-d53e-43b4-be34-67ef73de5343.png)
 
