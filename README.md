@@ -1,5 +1,5 @@
 # eShopOnSysbox
-Complete .Net 7 microservices architecture using a sysbox docker master container (acting as a VM) with systemd functionality to run all 22 eShop docker services within docker securely. 
+Complete .Net 7 microservices architecture using a sysbox powered master container (with systemd functionality) to run all 22 eShop docker containers within docker securely. 
 
 # pre-req
 Setup sysbox
