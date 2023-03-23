@@ -2,15 +2,15 @@
 Complete .Net 7 microservices architecture using a sysbox powered master container (with systemd functionality) to run all 22 eShop docker containers within docker securely. 
 
 # pre-req
-Setup sysbox
+Setup sysbox on your dev server/laptop
 
 install with yay on arch distros (refer to sysbox documentation for others - https://github.com/nestybox/sysbox) 
+
 `yay -S sysbox-ce-bin`
 
 enable and start sysbox
 -----------------------
-`sudo systemctl enable sysbox
-sudo systemctl start sysbox`
+`sudo systemctl enable --now sysbox'
 
 make sure this entry is in your docker deamon.json file (/etc/docker/daemon.json)
 '{
