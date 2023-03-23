@@ -23,8 +23,8 @@ make sure this entry is in your docker deamon.json file (/etc/docker/daemon.json
 }
 ```
 
-'sudo systemctl daemon-reload 
-sudo systemctl restart docker'
+`sudo systemctl daemon-reload 
+sudo systemctl restart docker`
 
 check that docker can see the sysbox runtime
 --------------------------------------------
@@ -38,9 +38,12 @@ check that docker can see the sysbox runtime
 `docker run --runtime=sysbox-runc -itd -p 5100:5100 -p 5104:5104 -p 5107:5107 --name eshop karlpothast/eshoponsysbox:1.0.0`
 
 You should be able to see the catalog, SPA app and health checker with the following URLs :
-http://localhost:5100
-http://localhost:5104
-http://localhost:5107
+
+> http://localhost:5100
+> http://localhost:5104
+> http://localhost:5107
+
+![alt text](https://github.com/karlpothast/eShopOnSysbox/raw/master/src/documentation/containers.png "containers")
 
 # references
 .net7 eShopOnContainers microservices architecture
