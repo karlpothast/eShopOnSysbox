@@ -40,6 +40,10 @@ check that docker can see the sysbox runtime
 # docker run
 `docker run --runtime=sysbox-runc -itd -p 5100:5100 -p 5104:5104 -p 5107:5107 --name eshop karlpothast/eshoponsysbox:1.0.0`
 
+![image](https://user-images.githubusercontent.com/13120778/227138622-d68a9d5f-8ee4-4f3e-8e50-933e0055688b.png)
+
+
+
 You should be able to see the catalog, SPA app and health checker with the following URLs :
 
 > http://localhost:5100
