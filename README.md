@@ -23,8 +23,10 @@ make sure this entry is in your docker deamon.json file (/etc/docker/daemon.json
 }
 ```
 
-`sudo systemctl daemon-reload 
-sudo systemctl restart docker`
+`
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+`
 
 check that docker can see the sysbox runtime
 --------------------------------------------
