@@ -13,13 +13,13 @@ enable and start sysbox
 `sudo systemctl enable --now sysbox`
 
 make sure this entry is in your docker deamon.json file (/etc/docker/daemon.json)
-`{
+```{
     "runtimes": {
         "sysbox-runc": {
             "path": "/usr/bin/sysbox-runc"
         }
     }
-}`
+}```
 
 'sudo systemctl daemon-reload 
 sudo systemctl restart docker'
@@ -27,7 +27,7 @@ sudo systemctl restart docker'
 check that docker can see the sysbox runtime
 --------------------------------------------
 `docker info | grep -i runtime`
-Runtimes: sysbox-runc io.containerd.runc.v2 runc
+> Runtimes: sysbox-runc io.containerd.runc.v2 runc
 
 # docker image
 `docker pull karlpothast/eshoponsysbox:1.0.0`
